@@ -8,71 +8,23 @@
 }
 
 
-/* SECTION NAVEGACION*/
-header{
-    border-bottom: 2px solid #fac8d1;
-    background-color: #ee81a0;
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-
-    }
-
-header  section img{
-    position: relative;
-    width:250px ;
-    display: flex;
-}
-
-
-.menuhamburguesa{ 
-    position: relative;
-    top: -180px;
-    left: 1435px;
-    width: 40px;    
+.navbar-nav {
+    display: flex; /* Utilizamos flexbox */
+    gap: 95px; /* Espacio entre los elementos */
+    list-style: none; /* Quitamos los estilos de lista predeterminados */
+    font-size: 20px;
     
-}
 
-header nav ul{
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-}
-
-header nav ul li{
-    position: relative;
-    top: -115px;
-    left: 350px;
-    margin: 35px;
-}
-header section nav ul li a{
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: lighter;
-    background-color: #fac8d1;
-    color: black;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-/*MAIN INDEX */
-main h1{ 
-    font-size: 25px;
-}
-main p{
-    font-size: 20px;
-    text-align: justify;
-}
-
-
-
-
-
-
-
-
+  }
+  
+  .navbar-nav li {
+    margin: 0; /* Quita cualquier margen predeterminado */
+  }
+  
+  .navbar-nav .dropdown-menu {
+    position: absolute; /* Para mantener el menú desplegable en su lugar */
+  }
+  
 
 
 
@@ -93,7 +45,7 @@ main p{
     font-size: 20px;
     text-align: justify;
 }
-/*PRODUCTOS - SUBMENU*/
+
 
 /*COMO COMPRAR*/
 

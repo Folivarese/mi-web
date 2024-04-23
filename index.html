@@ -19,40 +19,64 @@
     <!--Encabezados-->
     <header class="concert-one-regular"> <!--Cabecera-->
 
-        <section>
+        <section class="navbar"> <!-- BARRA NAVEGACION-->
 
-            <img id="inicio" src="imagenes/logo1.png" alt="logo"  >
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <!-- LOGO PAGINA -->
+                  <a class="navbar-brand" href="#">
+                    <img id="inicio" src="imagenes/logo1.png" alt="Logo">
+                  </a>
 
-            <nav > <!--lista desordenada para navegacion-->
-                <ul>
-                    <li>
-                        <a href="index.html"> INICIO </a>
-         
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="paginas/nosotros.html">Nosotros</a>
+                      </li>
+
+                        <!-- Menú desplegable para Productos -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownProductos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Productos
+                         </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownProductos">
+                        <li><a class="dropdown-item" href="#">Remeras</a></li>
+                        <li><a class="dropdown-item" href="#">Pantalones/Faldas</a></li>
+                        <li><a class="dropdown-item" href="#">Abrigos</a></li>
+                        <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Nuevo</a></li>
+                        </ul>
                     </li>
+                     <!-- Fin del menú desplegable -->
+              
+                      <li class="nav-item">
+                        <a class="nav-link" href="paginas/comocomprar.html">Cómo Comprar</a>
+                      </li>
 
-                    <li>
-                        <a href="paginas/nosotros.html"> NOSOTROS </a>
-                    </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="paginas/contacto.html">Contacto</a>
+                      </li>
 
-                    <li>
-                        <a href="paginas/productos.html"> PRODUCTOS </a>
-
-                    </li>
-
-                    <li>
-                        <a href="paginas/comocomprar.html"> COMO COMPRAR </a>
-                    </li>
-
-                    <li>
-                        <a href="paginas/contacto.html"> CONTACTO</a>
-                    </li>
-                </ul>
-
-            </nav> <!--zonas navegables-->
-<div>
-    <!--IMAGEN HAMBURGUESA  buscarlo en blanco-->
-    <img src="imagenes/menuhamburguesa.png" alt="menuhamburguesa" class="menuhamburguesa"> 
-</div>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                      <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+              
+              
         </section>
 
 

@@ -1,0 +1,189 @@
+/* Comentario */
+
+/* Estilo para class .concert-one-regular */
+.concert-one-regular {
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* SECTION NAVEGACION*/
+header{
+    border-bottom: 2px solid #fac8d1;
+    background-color: #ee81a0;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+    }
+
+header  section img{
+    position: relative;
+    width:250px ;
+    display: flex;
+}
+
+
+.menuhamburguesa{ 
+    position: relative;
+    top: -180px;
+    left: 1435px;
+    width: 40px;    
+    
+}
+
+header nav ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li{
+    position: relative;
+    top: -115px;
+    left: 350px;
+    margin: 35px;
+}
+header section nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    background-color: #fac8d1;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*MAIN INDEX */
+main h1{ 
+    font-size: 25px;
+}
+main p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*NOSOTROS*/
+#nosotros{
+    font-size: 20px;
+}
+#modacircular{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 350;
+}
+#explmodacircular{
+    font-size: 20px;
+    text-align: justify;
+}
+/*PRODUCTOS - SUBMENU*/
+
+/*COMO COMPRAR*/
+
+#insta-link {
+    text-decoration: none;
+    padding-top: 100px;
+    }
+    
+    #catalogo-link {
+        text-decoration: none;
+        }
+        
+    #efectivo{
+        font-size: 20px;
+    }
+    #transferencia{
+        font-size: 20px;
+    }
+    #mercadopago{
+        font-size: 20px;
+    }
+    #tarjetas{
+        font-size: 20px;
+    }
+    #entregas{
+        font-size: 20px;
+    }
+    #envio{
+        font-size: 20px;
+    }
+
+    /*CONTACTO*/
+    #contacto{
+        font-size: 20px;
+    }
+
+    
+/*FOOTER*/
+footer {
+    background-color: #ee81a0;
+}
+
+footer h2 {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 25px;
+}
+
+footer h3{
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Percha footer*/
+
+footer {
+    position: relative; 
+}
+.volverarriba{
+    position: relative;
+    top: 25px;
+}
+.dibujopercha {
+    position: absolute; 
+    top:130px;
+    bottom: 10px; /*distancia desde la parte inferior */
+    right: 20px; /* distancia desde el lado derecho */
+    width: 150px;
+}
+
+.logo-wsp{
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.logo-insta{
+    position: relative;
+    top: 70px;
+    right:43px;
+}
+.logo-fb{
+    position: relative;
+    top: 125px;
+    right: 100px;
+}
+.logo-tiktok{
+    position: relative;
+    bottom: 30px;
+    left: 730px;
+}

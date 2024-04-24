@@ -7,22 +7,48 @@
     font-style: normal;
 }
 
+.anuncio{
+    background-color: #f8c7cd;
+}
+.anuncio p{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px;
+}
+.navbar{
+    background-color: #ee81a0;
+}
 
 .navbar-nav {
-    display: flex; /* Utilizamos flexbox */
+    display: flex; /*flexbox */
     gap: 95px; /* Espacio entre los elementos */
-    list-style: none; /* Quitamos los estilos de lista predeterminados */
+    list-style: none;
     font-size: 20px;
-    
-
-  }
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bolder;
+    align-items: center;
+      }
   
   .navbar-nav li {
-    margin: 0; /* Quita cualquier margen predeterminado */
+    margin: 0px; /* Quita cualquier margen predeterminado */
   }
   
   .navbar-nav .dropdown-menu {
     position: absolute; /* Para mantener el menú desplegable en su lugar */
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+
+  .botonbuscar{
+    color: black;
+    border-color: black;
+    background-color: #f8c7cd;
   }
   
 

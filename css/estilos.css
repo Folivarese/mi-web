@@ -38,10 +38,20 @@ body{
     align-items: center;
       }
   
-  .navbar-nav li {
+  .navbar-nav li a {
     margin: 0px; /* Quita cualquier margen predeterminado */
+    transition: 1s;
+  }
+
+  .navbar-nav li a:hover{
+    background-color: #ee81a0;
+    color: white;
   }
   
+  .navbar-nav li a:active{
+    color: white;
+    background-color: #ee81a0;
+  }
   .navbar-nav .dropdown-menu {
     position: absolute; /* Para mantener el menú desplegable en su lugar */
     color: black;
@@ -51,11 +61,15 @@ body{
 
   .botonbuscar{
     color: black;
-    border-color: black;
+    border-color:#f8c7cd;
     background-color: #f8c7cd;
     font-family: Arial, Helvetica, sans-serif;
   }
   
+  .botonbuscar:hover{
+    background-color: white;
+    color: black;
+  }
 
 .grid-container{
     display: grid;

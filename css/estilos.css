@@ -15,16 +15,14 @@ body{
     background-color: #f8c7cd;
 }
 .anuncio p{
-    text-align: center;
     color: black;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
     margin: 0;
     padding: 5px;
 }
-.navbar{
-    background-color: #ee81a0;
+.colorfondonavbar{
+    background-color: #ee81a0 !important; 
 }
 
 .navbar-nav {
@@ -124,13 +122,16 @@ body{
 }
 
 .grid-item03 p{
-color: black;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 20px;
-font-weight: lighter;
-font-style: oblique;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: oblique;
 }
 
+span{
+    font-weight: bold;
+}
 
 
 
@@ -187,58 +188,64 @@ font-style: oblique;
 
     
 /*FOOTER*/
-footer {
+.footer-content{
     background-color: #ee81a0;
+    padding: 20px;
 }
 
 footer h2 {
     color: black;
-    font-size: 40px;
-    text-align: center;
+    font-size: 30px;
     position: relative;
-    bottom: 25px;
+    font-weight: lighter;
+    top:0px;
 }
 
 footer h3{
     font-size: 20px;
     text-align: center;
+    margin-bottom: 0;
 }
 
-/* Percha footer*/
-
-footer {
-    position: relative; 
-}
 .volverarriba{
     position: relative;
-    top: 25px;
-}
-.dibujopercha {
-    position: absolute; 
-    top:130px;
-    bottom: 10px; /*distancia desde la parte inferior */
-    right: 20px; /* distancia desde el lado derecho */
-    width: 150px;
+    top:70px;
+    right: 500px;
+    left: 0px;
+    font-size:20px ;
+    color: white;
 }
 
 .logo-wsp{
     position: relative;
-    top: 20px;
-    left: 10px;
+    text-decoration: none;
 }
 
 .logo-insta{
     position: relative;
-    top: 70px;
-    right:43px;
+    text-decoration: none;
 }
 .logo-fb{
     position: relative;
-    top: 125px;
-    right: 100px;
+    text-decoration: none;
 }
 .logo-tiktok{
     position: relative;
-    bottom: 30px;
-    left: 730px;
+    text-decoration: none;
+}
+.redes{
+  display: inline-block;  
+  margin-right: 10px;
+}
+.redes-sociales{
+    display: flex;
+    justify-content: center;
+}
+.copyright{
+    position: relative;
+    top:70px;
+    left: -500px;
+    left: 0px;
+    font-size:20px ;
+    color: black;
 }

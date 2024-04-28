@@ -37,7 +37,7 @@ body{
       }
   
   .navbar-nav li a {
-    margin: 0px; /* Quita cualquier margen predeterminado */
+    margin: 0px; 
     transition: 1s;
   }
 
@@ -113,7 +113,6 @@ body{
     padding: 15px;
 }
 
-
 .grid-item03{
     background-color: #ffd64d ;
     grid-column: 2/3;
@@ -132,61 +131,7 @@ body{
 span{
     font-weight: bold;
 }
-
-
-
-
- /*NOSOTROS*/
-#nosotros{
-    font-size: 20px;
-}
-#modacircular{
-    font-size: 25px;
-    font-style: italic;
-    font-weight: 350;
-}
-#explmodacircular{
-    font-size: 20px;
-    text-align: justify;
-}
-
-
-/*COMO COMPRAR*/
-
-#insta-link {
-    text-decoration: none;
-    padding-top: 100px;
-    }
-    
-    #catalogo-link {
-        text-decoration: none;
-        }
-        
-    #efectivo{
-        font-size: 20px;
-    }
-    #transferencia{
-        font-size: 20px;
-    }
-    #mercadopago{
-        font-size: 20px;
-    }
-    #tarjetas{
-        font-size: 20px;
-    }
-    #entregas{
-        font-size: 20px;
-    }
-    #envio{
-        font-size: 20px;
-    }
-
-    /*CONTACTO*/
-    #contacto{
-        font-size: 20px;
-    }
-
-    
+   
 /*FOOTER*/
 .footer-content{
     background-color: #ee81a0;
@@ -198,7 +143,6 @@ footer h2 {
     font-size: 30px;
     position: relative;
     font-weight: lighter;
-    top:0px;
 }
 
 footer h3{
@@ -207,45 +151,55 @@ footer h3{
     margin-bottom: 0;
 }
 
-.volverarriba{
+.volverarriba {
     position: relative;
-    top:70px;
-    right: 500px;
-    left: 0px;
-    font-size:20px ;
+    bottom: -40px; 
+    left: 20px;
+    font-size: 20px;
     color: white;
 }
 
-.logo-wsp{
+
+.logo-wsp img{
     position: relative;
     text-decoration: none;
+    width: 50px;
+    height: 50px;
 }
 
-.logo-insta{
+.logo-insta img{
     position: relative;
     text-decoration: none;
+    width: 50px;
+    height: 50px;
 }
-.logo-fb{
+.logo-fb img{
     position: relative;
     text-decoration: none;
+    width: 50px;
+    height: 50px;
 }
-.logo-tiktok{
+.logo-tiktok img{
     position: relative;
     text-decoration: none;
+    width: 50px;
+    height: 50px;
 }
-.redes{
-  display: inline-block;  
-  margin-right: 10px;
+.redes-sociales a {
+    display: inline-block;  
+    margin: 0 10px;
+    margin-bottom: -10px; 
 }
+
 .redes-sociales{
     display: flex;
     justify-content: center;
+   
 }
-.copyright{
+.copyright {
     position: relative;
-    top:70px;
-    left: -500px;
-    left: 0px;
-    font-size:20px ;
+    top: 15px;
+    left: -5px; 
+    font-size: 20px;
     color: black;
 }

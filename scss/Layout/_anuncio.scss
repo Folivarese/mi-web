@@ -1,8 +1,9 @@
+$color-texto: black;
 .anuncio {
     background-color: #f8c7cd;
   
     p {
-      color: black;
+      color: $color-texto;
       font-size: 30px;
       font-family: Arial, Helvetica, sans-serif;
       margin: 0;

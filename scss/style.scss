@@ -6,11 +6,14 @@ elemento{
     }  
 }
 */
-@import "reset.scss";
-@import "anuncio.scss";
-@import "navbar.scss";
-@import "sectiongridindex.scss";
-@import "footer.scss";
+@import "base/reset.scss";
+@import "layout/anuncio.scss";
+@import "layout/navbar.scss";
+@import "layout/sectiongridindex.scss";
+@import "layout/footer.scss";
+@import "medias-queries/media-mobile";
+@import "medias-queries/media-desktop";
+@import "utilities/mixins.scss"
 
 
 

@@ -1,16 +1,14 @@
+$color-principal: #ee81a0;
+$color-texto: black;
+
 .colorfondonavbar {
-    background-color: #ee81a0 !important;
+    background-color: $color-principal !important;
   }
-  
+  nav{
+    display: none;
+  }
   .navbar-nav {
-    display: flex;
-    gap: 95px;
-    list-style: none;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    font-weight: bolder;
-    align-items: center;
+    @include items-nav;
   
     li a {
       margin: 0px;
@@ -18,27 +16,27 @@
   
       &:hover,
       &:active {
-        background-color: #ee81a0;
+        background-color: $color-principal;
         color: white;
       }
     }
   
     .dropdown-menu {
       position: absolute;
-      color: black;
+      color: $color-texto;
       font-weight: bolder;
       font-size: 20px;
     }
   }
   
   .botonbuscar {
-    color: black;
+    color: $color-texto;
     border-color: #f8c7cd;
     background-color: #f8c7cd;
     font-family: Arial, Helvetica, sans-serif;
   
     &:hover {
       background-color: white;
-      color: black;
+      color: $color-texto;
     }
   }

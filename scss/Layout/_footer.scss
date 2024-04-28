@@ -1,10 +1,10 @@
-
+$color-texto: black;
 .footer-content {
     background-color: #ee81a0;
     padding: 20px;
   
     h2 {
-      color: black;
+      color: $color-texto;
       font-size: 30px;
       position: relative;
       font-weight: lighter;
@@ -43,10 +43,14 @@
       display: flex;
       justify-content: center;
   
-      a {
+    .enlace-redes {
         display: inline-block;
         margin: 0 15px;
         margin-bottom: -20px;
+      }
+
+      a{
+        @extend .enlace-redes
       }
     }
   
@@ -55,6 +59,6 @@
       top: 15px;
       left: -5px;
       font-size: 20px;
-      color: black;
+      color: $color-texto;
     }
   }

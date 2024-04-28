@@ -219,7 +219,7 @@ span {
   display: flex;
   justify-content: center;
 }
-.footer-content .redes-sociales a {
+.footer-content .redes-sociales .enlace-redes, .footer-content .redes-sociales a {
   display: inline-block;
   margin: 0 15px;
   margin-bottom: -20px;

@@ -1,0 +1,60 @@
+
+.footer-content {
+    background-color: #ee81a0;
+    padding: 20px;
+  
+    h2 {
+      color: black;
+      font-size: 30px;
+      position: relative;
+      font-weight: lighter;
+    }
+  
+    h3 {
+      font-size: 20px;
+      text-align: center;
+      margin-bottom: 0;
+    }
+  
+    .volverarriba {
+      position: relative;
+      bottom: -35px;
+      left: 20px;
+      font-size: 20px;
+      color: white;
+    }
+  
+    .logo-wsp,
+    .logo-insta,
+    .logo-fb,
+    .logo-tiktok {
+      img {
+        width: 55px;
+        height: 55px;
+        transition: transform 0.3s ease;
+      }
+
+      &:hover img {
+        transform: scale(1.1);
+      }
+    }
+  
+    .redes-sociales {
+      display: flex;
+      justify-content: center;
+  
+      a {
+        display: inline-block;
+        margin: 0 15px;
+        margin-bottom: -20px;
+      }
+    }
+  
+    .copyright {
+      position: relative;
+      top: 15px;
+      left: -5px;
+      font-size: 20px;
+      color: black;
+    }
+  }

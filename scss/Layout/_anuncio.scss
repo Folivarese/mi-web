@@ -1,12 +1,30 @@
-$color-texto: black;
-.anuncio {
-    background-color: #f8c7cd;
-  
+div {
+  .anuncio {
     p {
-      color: $color-texto;
+      color: black;
       font-size: 30px;
       font-family: Arial, Helvetica, sans-serif;
       margin: 0;
       padding: 5px;
+      /*animation-name: cambiacolor;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      animation-duration: 10s;
+      animation-delay: 5s;*/
     }
   }
+}
+/*
+@keyframes cambiacolor {
+  0% {
+    background-color: #f8c7cd;
+  }
+  50% {
+    background-color: #ffd64d;
+  }
+  100% {
+    background-color: #9bc01c;
+  }
+}
+*/
+

@@ -46,14 +46,14 @@ $color-texto: black;
     .enlace-redes {
         display: inline-block;
         margin: 0 15px;
-        margin-bottom: -20px;
+        margin-bottom: -20px; 
       }
 
       a{
         @extend .enlace-redes
       }
     }
-  
+    
     .copyright {
       position: relative;
       top: 15px;
@@ -62,3 +62,12 @@ $color-texto: black;
       color: $color-texto;
     }
   }
+
+
+
+
+  
+    
+  
+  
+  

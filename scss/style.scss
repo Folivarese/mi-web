@@ -13,7 +13,12 @@ elemento{
 @import "layout/footer.scss";
 @import "medias-queries/media-mobile";
 @import "medias-queries/media-desktop";
-@import "utilities/mixins.scss"
+@import "medias-queries/media-tablet";
+@import "utilities/mixins.scss";
+@import "layout/comocomprar";
+@import "layout/contacto";
+@import "layout/nosotros";
+@import "layout/productos";
 
 
 

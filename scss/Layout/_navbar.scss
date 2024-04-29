@@ -1,12 +1,11 @@
 $color-principal: #ee81a0;
+$color-principal2:#f8c7cd;
 $color-texto: black;
 
 .colorfondonavbar {
     background-color: $color-principal !important;
   }
-  nav{
-    display: none;
-  }
+ 
   .navbar-nav {
     @include items-nav;
   

@@ -6,9 +6,9 @@ $color-texto: black;
     background-color: $color-principal !important;
   }
  
-  .navbar-nav {
+  .navbar-nav {  
     @include items-nav;
-  
+
     li a {
       margin: 0px;
       transition: 1s;

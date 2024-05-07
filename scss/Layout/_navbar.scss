@@ -3,39 +3,51 @@ $color-principal2:#f8c7cd;
 $color-texto: black;
 
 .colorfondonavbar {
-    background-color: $color-principal !important;
-  }
- 
-  .navbar-nav {  
-    @include items-nav;
+  background-color: $color-principal !important;
+}
 
-    li a {
-      margin: 0px;
-      transition: 1s;
-  
-      &:hover,
-      &:active {
-        background-color: $color-principal;
-        color: white;
+.navbar-nav {
+  li {
+      margin-right: 20px;
+      display: flex;
+      gap: 95px;
+      list-style: none;
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bolder;
+      align-items: center;
+    
+      a {
+          color: $color-texto;
+          transition: 1s;
+        
+          &:hover,
+          &:active {
+              background-color: $color-principal;
+              color: white;
+          }
       }
-    }
-  
-    .dropdown-menu {
+  }
+
+  .dropdown-menu {
       position: absolute;
       color: $color-texto;
       font-weight: bolder;
       font-size: 20px;
-    }
   }
-  
-  .botonbuscar {
-    color: $color-texto;
-    border-color: #f8c7cd;
-    background-color: #f8c7cd;
-    font-family: Arial, Helvetica, sans-serif;
-  
-    &:hover {
+}
+.form-control {
+  margin-right: 20px; 
+}
+
+.botonbuscar {
+  color: $color-texto;
+  border-color: #f8c7cd;
+  background-color: #f8c7cd;
+  font-family: Arial, Helvetica, sans-serif;
+
+  &:hover {
       background-color: white;
       color: $color-texto;
-    }
   }
+}

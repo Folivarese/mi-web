@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* SINTAXIS DE SASS - COMO HTML 
 elemento{
     color:valor
@@ -16,38 +17,34 @@ body {
   background-color: beige;
 }
 
-div .anuncio p {
+.anuncio {
+  background-color: #f8c7cd;
   color: black;
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 5px;
-  /*animation-name: cambiacolor;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-duration: 10s;
-  animation-delay: 5s;*/
 }
 
-/*
-@keyframes cambiacolor {
-  0% {
-    background-color: #f8c7cd;
-  }
-  50% {
-    background-color: #ffd64d;
-  }
-  100% {
-    background-color: #9bc01c;
-  }
+.anuncio p {
+  margin: 0; /* Ajustar el margen del párrafo si es necesario */
 }
-*/
+
 .colorfondonavbar {
   background-color: #ee81a0 !important;
 }
 
+.navbar-nav li {
+  display: flex;
+  gap: 95px;
+  list-style: none;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  align-items: center;
+}
 .navbar-nav li a {
-  margin: 0px;
+  color: black;
   transition: 1s;
 }
 .navbar-nav li a:hover, .navbar-nav li a:active {
@@ -59,6 +56,10 @@ div .anuncio p {
   color: black;
   font-weight: bolder;
   font-size: 20px;
+}
+
+.form-control {
+  margin-right: 20px;
 }
 
 .botonbuscar {

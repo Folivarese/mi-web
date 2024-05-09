@@ -35,6 +35,7 @@ body {
 }
 
 .navbar-nav li {
+  margin-right: 20px;
   display: flex;
   gap: 95px;
   list-style: none;
@@ -253,17 +254,22 @@ span {
     display: none;
   }
 }
-.nosotros section h4 {
+.nuestrahistoria {
+  background-color: aqua;
+  margin: 30px;
+  border-radius: 10px;
+}
+.nuestrahistoria p {
+  color: black;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 70px;
   font-weight: bolder;
-}
-.nosotros section p {
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  font-weight: lighter;
 }
 
 /*# sourceMappingURL=estilos.css.map */

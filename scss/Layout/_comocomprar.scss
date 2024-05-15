@@ -30,13 +30,14 @@
 }
   
 section.importante {
-    background-color: #f8f8f8; /* Color de fondo inicial */
+    background-color: #f8f8f8; 
     padding: 20px;
+    margin-top: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     position: relative;
     overflow: hidden;
-    animation: highlightBackground 5s infinite alternate, scaleAnimation 10s infinite alternate; /* Animaciones de cambio de color y escala */
+    animation: highlightBackground 5s infinite alternate, scaleAnimation 10s infinite alternate; 
   
     p {
       font-size: 20px;

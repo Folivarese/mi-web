@@ -21,15 +21,28 @@ body {
   background-color: #f8c7cd;
   color: black;
   font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Salsa", cursive;
   margin: 0;
   padding: 5px;
+  overflow: hidden;
 }
-
 .anuncio p {
-  margin: 0; /* Ajustar el margen del párrafo si es necesario */
+  margin: 0;
+  animation: moveText 25s linear infinite;
+  display: inline-block;
 }
 
+@keyframes moveText {
+  0% {
+    transform: translateX(100%);
+  }
+  50% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
 .colorfondonavbar {
   background-color: #ee81a0 !important;
 }

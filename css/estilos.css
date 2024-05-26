@@ -357,6 +357,47 @@ section.importante p {
   color: #9bc01c;
 }
 
+.contactanos {
+  text-align: center;
+  animation: fadeInDown 1s ease forwards;
+}
+.contactanos h1 {
+  background-color: #f8c7cd;
+  margin: 25px auto;
+  display: inline-block;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+@keyframes fadeInDown {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.contacto ul {
+  list-style-type: none;
+}
+.contacto ul li {
+  margin-bottom: 1rem;
+}
+.contacto ul li a {
+  color: black;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+.contacto ul li a:hover {
+  text-decoration: underline;
+}
+.contacto ul li .img-fluid {
+  width: 60px;
+}
+
 section.nosotros1 {
   background-color: #f8c7cd;
   margin: 30px;

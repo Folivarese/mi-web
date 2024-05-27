@@ -269,6 +269,7 @@ span {
   max-width: 800px;
   margin: 0 auto 20px;
   font-size: 25px;
+  font-family: "Titan One", cursive;
 }
 
 @keyframes fadeInDown {
@@ -299,6 +300,7 @@ section.importante {
   position: relative;
   overflow: hidden;
   animation: highlightBackground 5s infinite alternate, scaleAnimation 10s infinite alternate;
+  font-family: "Titan One", cursive;
 }
 section.importante p {
   font-size: 20px;
@@ -554,19 +556,22 @@ section.nosotros4 .titulo4 h4 {
   transform: translateX(-10px);
 }
 
-.second-hand-section {
+.seccion-segunda-mano {
   padding: 20px;
   background: linear-gradient(135deg, #f8c7cd, rgba(183, 224, 42, 0.55), #9bc01c);
   color: #333;
-  font-family: "Concert One", cursive;
+  font-family: "Titan One", cursive;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.second-hand-section .benefits-section {
+.seccion-segunda-mano .seccion-beneficios, .seccion-segunda-mano .introduccion, .seccion-segunda-mano .pasos, .seccion-segunda-mano .requisitos, .seccion-segunda-mano .beneficios, .seccion-segunda-mano .llamada-a-la-accion {
+  margin-bottom: 20px;
+}
+.seccion-segunda-mano .seccion-beneficios {
   text-align: center;
   margin-bottom: 20px;
 }
-.second-hand-section .benefits-section h4 {
+.seccion-segunda-mano .seccion-beneficios h4 {
   font-size: 2em;
   margin-bottom: 10px;
   padding: 10px;
@@ -575,28 +580,81 @@ section.nosotros4 .titulo4 h4 {
   display: inline-block;
   color: #fff;
 }
-.second-hand-section .benefits-section .hero-image {
+.seccion-segunda-mano .seccion-beneficios .imagen-hero {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
   margin-top: 20px;
 }
-.second-hand-section .benefits-list ul {
+.seccion-segunda-mano .lista-beneficios ul {
   list-style-type: none;
   padding: 0;
 }
-.second-hand-section .benefits-list ul li {
+.seccion-segunda-mano .lista-beneficios ul li {
   background: rgba(255, 255, 255, 0.2);
   margin-bottom: 10px;
   padding: 15px;
-  font-size: 1.2em;
+  font-size: 20px;
   border-radius: 8px;
   transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   color: #333;
 }
-.second-hand-section .benefits-list ul li:hover {
+.seccion-segunda-mano .lista-beneficios ul li:hover {
   background-color: rgba(255, 255, 255, 0.4);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.seccion-segunda-mano .introduccion {
+  text-align: center;
+}
+.seccion-segunda-mano .introduccion h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+.seccion-segunda-mano .introduccion p {
+  font-size: 1.2em;
+  color: #666;
+}
+.seccion-segunda-mano .pasos .accordion-button {
+  background-color: rgba(183, 224, 42, 0.55);
+  color: #333;
+  font-size: 20px;
+}
+.seccion-segunda-mano .pasos .accordion-button:not(.collapsed) {
+  background-color: #9bc01c;
+  color: #fff;
+}
+.seccion-segunda-mano .pasos .accordion-button:hover {
+  background-color: #9bc01c;
+  color: #fff;
+}
+.seccion-segunda-mano .pasos .accordion-body {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.seccion-segunda-mano .requisitos h3, .seccion-segunda-mano .beneficios h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+.seccion-segunda-mano .requisitos ul, .seccion-segunda-mano .beneficios ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+.seccion-segunda-mano .requisitos ul li, .seccion-segunda-mano .beneficios ul li {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  color: #333;
+}
+.seccion-segunda-mano .requisitos ul strong, .seccion-segunda-mano .beneficios ul strong {
+  color: #000;
+}
+.seccion-segunda-mano .llamada-a-la-accion {
+  text-align: center;
+}
+.seccion-segunda-mano .llamada-a-la-accion p {
+  font-size: 20px;
+  background-color: rgba(183, 224, 42, 0.55);
+  padding: 15px;
+  border-radius: 8px;
+  color: #fff;
 }
 
 /*# sourceMappingURL=estilos.css.map */

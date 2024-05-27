@@ -7,6 +7,7 @@
     max-width: 800px; 
     margin: 0 auto 20px; 
     font-size: 25px;
+    font-family: 'Titan One', cursive;
 }
 
 @keyframes fadeInDown {
@@ -38,6 +39,7 @@ section.importante {
     position: relative;
     overflow: hidden;
     animation: highlightBackground 5s infinite alternate, scaleAnimation 10s infinite alternate; 
+    font-family: 'Titan One', cursive;
   
     p {
       font-size: 20px;

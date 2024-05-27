@@ -1,52 +1,126 @@
-.second-hand-section {
-    padding: 20px;
-    background: linear-gradient(135deg, #f8c7cd, rgba(183, 224, 42, 0.55), #9bc01c);
-    color: #333; // Cambiado a un tono más oscuro
-    font-family: 'Concert One', cursive;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  
-    .benefits-section {
+.seccion-segunda-mano {
+  padding: 20px;
+  background: linear-gradient(135deg, #f8c7cd, rgba(183, 224, 42, 0.55), #9bc01c);
+  color: #333; 
+  font-family: 'Titan One', cursive;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  .seccion-beneficios, .introduccion, .pasos, .requisitos, .beneficios, .llamada-a-la-accion {
+      margin-bottom: 20px;
+  }
+
+  .seccion-beneficios {
       text-align: center;
       margin-bottom: 20px;
-  
+
       h4 {
-        font-size: 2em;
-        margin-bottom: 10px;
-        padding: 10px;
-        background-color: rgba(0, 0, 0, 0.5);
-        border-radius: 10px;
-        display: inline-block;
-        color: #fff; // Asegurar que el título siga siendo legible
-      }
-  
-      .hero-image {
-        max-width: 100%;
-        height: auto;
-        border-radius: 10px;
-        margin-top: 20px;
-      }
-    }
-  
-    .benefits-list {
-      ul {
-        list-style-type: none;
-        padding: 0;
-  
-        li {
-          background: rgba(255, 255, 255, 0.2);
+          font-size: 2em;
           margin-bottom: 10px;
-          padding: 15px;
-          font-size: 1.2em;
-          border-radius: 8px;
-          transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-          color: #333; // Cambiado a un tono más oscuro
-  
-          &:hover {
-            background-color: rgba(255, 255, 255, 0.4);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-          }
-        }
+          padding: 10px;
+          background-color: rgba(0, 0, 0, 0.5);
+          border-radius: 10px;
+          display: inline-block;
+          color: #fff; 
       }
-    }
+
+      .imagen-hero {
+          max-width: 100%;
+          height: auto;
+          border-radius: 10px;
+          margin-top: 20px;
+      }
+  }
+
+  .lista-beneficios {
+      ul {
+          list-style-type: none;
+          padding: 0;
+
+          li {
+              background: rgba(255, 255, 255, 0.2);
+              margin-bottom: 10px;
+              padding: 15px;
+              font-size: 20px;
+              border-radius: 8px;
+              transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+              color: #333; // Cambiado a un tono más oscuro
+
+              &:hover {
+                  background-color: rgba(255, 255, 255, 0.4);
+                  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+              }
+          }
+      }
+  }
+
+  .introduccion {
+      text-align: center;
+
+      h2 {
+          font-size: 1.8em;
+          margin-bottom: 10px;
+      }
+
+      p {
+          font-size: 1.2em;
+          color: #666;
+      }
+  }
+
+  .pasos {
+      .accordion-button {
+          background-color: rgba(183, 224, 42, 0.55);
+          color: #333;
+          font-size: 20px;
+
+          &:not(.collapsed) {
+              background-color: #9bc01c;
+              color: #fff;
+          }
+
+          &:hover {
+              background-color: #9bc01c;
+              color: #fff;
+          }
+      }
+
+      .accordion-body {
+          background-color: rgba(255, 255, 255, 0.8);
+      }
+  }
+
+  .requisitos, .beneficios {
+      h3 {
+          font-size: 1.5em;
+          margin-bottom: 10px;
+      }
+
+      ul {
+          list-style-type: disc;
+          padding-left: 20px;
+
+          li {
+              margin-bottom: 10px;
+              font-size: 1.2em;
+              color: #333;
+          }
+
+          strong {
+              color: #000;
+          }
+      }
+  }
+
+  .llamada-a-la-accion {
+      text-align: center;
+
+      p {
+          font-size: 20px;
+          background-color: rgba(183, 224, 42, 0.55);
+          padding: 15px;
+          border-radius: 8px;
+          color: #fff;
+      }
+  }
 }

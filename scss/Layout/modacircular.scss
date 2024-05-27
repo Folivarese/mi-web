@@ -1,0 +1,52 @@
+.second-hand-section {
+    padding: 20px;
+    background: linear-gradient(135deg, #f8c7cd, rgba(183, 224, 42, 0.55), #9bc01c);
+    color: #333; // Cambiado a un tono más oscuro
+    font-family: 'Concert One', cursive;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+    .benefits-section {
+      text-align: center;
+      margin-bottom: 20px;
+  
+      h4 {
+        font-size: 2em;
+        margin-bottom: 10px;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        display: inline-block;
+        color: #fff; // Asegurar que el título siga siendo legible
+      }
+  
+      .hero-image {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-top: 20px;
+      }
+    }
+  
+    .benefits-list {
+      ul {
+        list-style-type: none;
+        padding: 0;
+  
+        li {
+          background: rgba(255, 255, 255, 0.2);
+          margin-bottom: 10px;
+          padding: 15px;
+          font-size: 1.2em;
+          border-radius: 8px;
+          transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+          color: #333; // Cambiado a un tono más oscuro
+  
+          &:hover {
+            background-color: rgba(255, 255, 255, 0.4);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          }
+        }
+      }
+    }
+}

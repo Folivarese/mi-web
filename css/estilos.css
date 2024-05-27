@@ -353,14 +353,18 @@ section.importante p {
   height: auto;
 }
 
+.metodos-entrega {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .metodos-entrega h4 {
   margin-top: 30px;
   margin-bottom: 30px;
-  justify-content: center;
   padding: 15px;
   background-color: rgba(183, 224, 42, 0.55);
   border-radius: 10px;
-  display: inline-block;
 }
 
 .metodos-pago {
@@ -548,6 +552,51 @@ section.nosotros4 .titulo4 h4 {
   -webkit-box-shadow: 21px 16px 5px -2px rgba(183, 224, 42, 0.55);
   -moz-box-shadow: 21px 16px 5px -2px rgba(183, 224, 42, 0.55);
   transform: translateX(-10px);
+}
+
+.second-hand-section {
+  padding: 20px;
+  background: linear-gradient(135deg, #f8c7cd, rgba(183, 224, 42, 0.55), #9bc01c);
+  color: #333;
+  font-family: "Concert One", cursive;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.second-hand-section .benefits-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.second-hand-section .benefits-section h4 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  display: inline-block;
+  color: #fff;
+}
+.second-hand-section .benefits-section .hero-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.second-hand-section .benefits-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+.second-hand-section .benefits-list ul li {
+  background: rgba(255, 255, 255, 0.2);
+  margin-bottom: 10px;
+  padding: 15px;
+  font-size: 1.2em;
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  color: #333;
+}
+.second-hand-section .benefits-list ul li:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /*# sourceMappingURL=estilos.css.map */

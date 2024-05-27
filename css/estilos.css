@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* SINTAXIS DE SASS - COMO HTML 
 elemento{
     color:valor
@@ -324,7 +323,7 @@ section.importante p {
     transform: scale(1);
   }
   50% {
-    transform: scale(1.05); /* Escalamos ligeramente la sección */
+    transform: scale(1.05);
   }
   100% {
     transform: scale(1);
@@ -354,14 +353,28 @@ section.importante p {
   height: auto;
 }
 
-.metodos-entrega {
+.metodos-entrega h4 {
   margin-top: 30px;
   margin-bottom: 30px;
+  justify-content: center;
+  padding: 15px;
+  background-color: rgba(183, 224, 42, 0.55);
+  border-radius: 10px;
+  display: inline-block;
 }
 
 .metodos-pago {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.metodos-pago h4 {
   margin-top: 30px;
   margin-bottom: 30px;
+  padding: 15px;
+  background-color: rgba(183, 224, 42, 0.55);
+  border-radius: 10px;
 }
 
 .texto-verde-cc span {
